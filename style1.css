@@ -1,0 +1,79 @@
+body {
+  background: url("background-image.jpg") center/cover no-repeat;
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  color: #fdfbfb;
+  text-align: center;
+  padding: 150px;
+  position: center;
+  font-style: italic;
+  font-size: medium;
+}
+
+.logo {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.logo img {
+  height: 100px; /* Adjust the height as needed */
+}
+
+.overlay {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5); /* Add an overlay for better readability */
+  padding: 10px;
+}
+
+nav {
+  background-color: #a8de1f;
+  position: relative;
+}
+
+nav ul {
+  float: right;
+  list-style-type: none;
+  margin-top: -1000px;
+  margin-right: 0;
+  padding: 0;
+}
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+nav a {
+  display: block;
+  font-size: 17 px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  color: #eee600;
+}
+
+.content-section {
+  text-align: justify;
+  font-size: 25px;
+  position: relative;
+}
+
+nav a:hover {
+  background-color: #ffffff;
+  transition: 5s;
+}
+
+footer {
+  background-color: #34495e;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
